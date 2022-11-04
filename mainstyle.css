@@ -26,6 +26,8 @@ a {
 }
 
 a:hover {
+  animation-name: fadein;
+  animation-duration: 300ms;
   background-color: darkblue;
 }
 
@@ -56,9 +58,21 @@ a:hover {
   }
 }
 
+@keyframes rotateMenu {
+  0% {
+      transform: rotateX(-90deg)
+  }
+  70% {
+      transform: rotateX(20deg) 
+  }
+  100% {
+      transform: rotateX(0deg) 
+  }
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
-  animation: growDown 300ms ease-in-out forwards;
+  animation: rotateMenu 300ms ease-in-out forwards;
 }
 
 
