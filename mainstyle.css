@@ -6,6 +6,11 @@ body {
 width: 10%
 }
 
+.stickybox {
+  position: sticky;
+  position: -webkit-sticky;
+}
+
 .Menu {
   margin: 0;
   padding: 0;
@@ -26,6 +31,12 @@ a {
 }
 
 a:hover {
+  animation-name: fadein;
+  animation-duration: 300ms;
+  background-color: darkblue;
+}
+
+.subitems:hover {
   animation-name: fadein;
   animation-duration: 300ms;
   background-color: darkblue;
