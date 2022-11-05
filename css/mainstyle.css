@@ -7,8 +7,10 @@ width: 10%
 }
 
 .stickybox {
+  display: inline;
   position: sticky;
   position: -webkit-sticky;
+  top: 0px;
 }
 
 .Menu {
