@@ -44,8 +44,6 @@ width: 10%
 }
 
 .linkbutton:hover {
-  animation-name: fadein;
-  animation-duration: 300ms;
   background-color: darkblue;
 }
 
@@ -84,20 +82,6 @@ width: 10%
 @keyframes fadein {
   0%  {opacity: 0;}
   100% {opacity: 1;}
-}
-
-@keyframes colorize {
-  0%  {color: black;
-  font-size: 100%;}
-  100%  {color: darkblue;
-  font-size: 150%;}
-}
-
-@keyframes decolorize {
-  0%  {color: darkblue;
-  font-size: 150%;}
-  100%  {color: black;
-  font-size: 100%;}
 }
 
 @keyframes growDown {
