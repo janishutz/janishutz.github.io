@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+.logo img {
+    width: 10%
+}
+
+div {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-color: black;
+    border-style: double;
+    border-radius: 3%;
+    background-color:dimgray;
+}
+
+
+h1 {
+    font-size: 300%;
+}
