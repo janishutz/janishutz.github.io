@@ -28,10 +28,6 @@ app.get('/projects/css/:file', (request, response) => {
     response.sendFile(path.join(__dirname + "/css/" + request.params.file))
 })
 
-app.get('/test/test', (request, response) => {
-    response.send("THIS WORKS!")
-})
-
 
 http.createServer(
     app
