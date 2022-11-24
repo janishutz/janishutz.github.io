@@ -1,0 +1,25 @@
+.Footer-box {
+    background-color: #38444d;
+    width: 103%;
+    margin-left: -1%;
+    margin-bottom: -1%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content-box {
+    width: 80%;
+    padding: 2%;
+}
+
+.footer-center-box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 10%;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}

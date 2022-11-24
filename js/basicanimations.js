@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $("#ContentToInclude").load("/menu.html");
+$("#ContentToInclude").load("/menu.html");
+$("#Footer").load("/footer.html");
     $(".linkbutton").mouseenter(function() {
         $(this).stop()
         $(this).animate({"border-radius": "0px", "background-color": "darkblue"}, 200)
@@ -9,9 +10,11 @@ $(document).ready(function() {
         $(this).animate({"border-radius": "20px", "background-color": "rgba(0,0,0,0)"}, 200)
     })
     $(".textlink").mouseenter(function() {
+        $(this).stop()
         $(this).animate({"color": "darkblue", "font-size": "120%"}, 200)
     })
     $(".textlink").mouseleave(function() {
+        $(this).stop()
         $(this).animate({"color": "black", "font-size": "100%"}, 200)
     })
     setTimeout(highlightLocation, 200)

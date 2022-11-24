@@ -1,13 +1,32 @@
+  .logo {
+    width: 5%;
+    display: inline-block;
+    margin-left: 2%;
+    position: relative;
+    vertical-align: middle;
+  }
+  
+  .menu-container {
+    display: inline-flex;
+    width: 80%;
+    justify-content: center;
+  }
+  
+  .stickybox {
+    display: inline;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+  }
+  
   .Menu {
-    margin: 0;
-    padding: 0;
+    margin-left: -1%;
+    margin-top: -1%;
+    padding: 2%;
+    width: 103%;
     list-style-type: none;
     overflow: hidden;
     background-color: #38444d;
-  }
-  
-  .mainitems {
-    display: inline-block;
   }
   
   .menubutton {
@@ -15,9 +34,12 @@
     display: inline-block;
     padding: 20px;
     color: white;
+    border-radius: 0%;
+    background-color: rgba(0,0,0,0);
   }
   
   .menubutton:hover {
+    border-radius: 0%;
     animation-name: fadein;
     animation-duration: 300ms;
     background-color: darkblue;
@@ -32,7 +54,7 @@
   .dropdown-menu {
     margin: 0;
     padding: 0;
-    background-color: #38444d;
+    background-color: lightseagreen;
     display: none;
     list-style-type: none;
     position: absolute;
@@ -70,10 +92,10 @@
   
   .dropdown:hover .dropdown-menu {
     display: block;
-    margin: 0;
     animation: rotateMenu 300ms ease-in-out forwards;
   }
   
-  
-  
+  .mainitems {
+    display: inline-block;
+  }
   

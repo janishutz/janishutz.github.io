@@ -28,7 +28,9 @@ app.get('/projects/css/:file', (request, response) => {
     response.sendFile(path.join(__dirname + "/css/" + request.params.file))
 })
 
+app.get('/assets/:file', (request, response) => {
+    response.sendFile(path.join(__dirname + "/assets/" + request.params.file))
+})
 
-http.createServer(
-    app
-    ).listen(8080);
+
+http.createServer(app).listen(8080);

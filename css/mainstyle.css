@@ -1,28 +1,33 @@
 body {
-  background-color: gray;
+  background-color: rgba(70, 72, 167, 0.5);
 }
 
-.logo img {
-width: 10%
+.bigquote {
+  width: 40%;
+  font-size: 300%;
 }
 
-.stickybox {
-  display: inline;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0px;
+.biggerquote {
+  font-size: 150%;
 }
 
-.Menu {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #38444d;
+.mainstyle {
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-color: black;
+  border-style: inset;
+  border-radius: 50px;
+  background-color:dimgray;
 }
 
-.mainitems {
-  display: inline-block;
+
+h1 {
+  font-size: 300%;
 }
 
 .textlink {
@@ -47,90 +52,4 @@ width: 10%
 
 .linkbutton:hover {
   background-color: darkblue;
-}
-
-.menubutton {
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px;
-  color: white;
-  border-radius: 0%;
-  background-color: rgba(0,0,0,0);
-}
-
-.menubutton:hover {
-  border-radius: 0%;
-  animation-name: fadein;
-  animation-duration: 300ms;
-  background-color: darkblue;
-}
-
-.subitems:hover {
-  animation-name: fadein;
-  animation-duration: 300ms;
-  background-color: darkblue;
-}
-
-.dropdown-menu {
-  margin: 0;
-  padding: 0;
-  background-color: #38444d;
-  display: none;
-  list-style-type: none;
-  position: absolute;
-  min-width: 200px;
-}
-
-@keyframes fadein {
-  0%  {opacity: 0;}
-  100% {opacity: 1;}
-}
-
-@keyframes growDown {
-  0% {
-      transform: scaleY(0)
-  }
-  80% {
-      transform: scaleY(1.1)
-  }
-  100% {
-      transform: scaleY(1)
-  }
-}
-
-@keyframes rotateMenu {
-  0% {
-      transform: rotateX(-90deg)
-  }
-  70% {
-      transform: rotateX(20deg) 
-  }
-  100% {
-      transform: rotateX(0deg) 
-  }
-}
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-  animation: rotateMenu 300ms ease-in-out forwards;
-}
-
-
-.policydiv {
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  padding: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  border-color: black;
-  border-style: double;
-  border-radius: 3%;
-  background-color:dimgray;
-}
-
-
-h1 {
-  font-size: 300%;
 }
