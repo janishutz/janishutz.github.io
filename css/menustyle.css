@@ -70,6 +70,7 @@
   
   .dropdown:hover .dropdown-menu {
     display: block;
+    margin: 0;
     animation: rotateMenu 300ms ease-in-out forwards;
   }
   

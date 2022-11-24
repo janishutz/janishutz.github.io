@@ -11,6 +11,8 @@
  *
  * Date: 2022-08-26T17:52Z
  */
+
+console.log("loaded jquery");
 ( function( global, factory ) {
 
 	"use strict";
