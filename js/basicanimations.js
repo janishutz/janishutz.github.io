@@ -19,7 +19,7 @@ function highlightLocation () {
     let pagename = $(location).attr('pathname')
     if (pagename.slice(0, 8) == "/project") {
         $('#projects').css("background-color", "darkblue")
-    } else if (pagename.slice(0, 6) == "/about") {
+    } else if (pagename.slice(0, 6) == "/about" || pagename == "/privacypolicy.html") {
         $('#about').css("background-color", "darkblue")
     } else if (pagename == "/" || pagename == "/index.html") {
         $('#home').css("background-color", "darkblue")
