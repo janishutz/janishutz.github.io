@@ -1,9 +1,11 @@
 $(document).ready(function() {
     $("#ContentToInclude").load("/menu.html");
     $(".linkbutton").mouseenter(function() {
+        $(this).stop()
         $(this).animate({"border-radius": "0px", "background-color": "darkblue"}, 200)
     })
     $(".linkbutton").mouseleave(function() {
+        $(this).stop()
         $(this).animate({"border-radius": "20px", "background-color": "rgba(0,0,0,0)"}, 200)
     })
     $(".textlink").mouseenter(function() {
