@@ -1,5 +1,6 @@
 body {
   background-color: rgba(70, 72, 167, 0.5);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bigquote {
@@ -52,4 +53,8 @@ h1 {
 
 .linkbutton:hover {
   background-color: darkblue;
+}
+
+.references {
+  color: gray;
 }
