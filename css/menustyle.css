@@ -20,10 +20,11 @@
   }
   
   .Menu {
-    margin-left: -1%;
     margin-top: -1%;
     padding: 2%;
-    width: 103%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
     list-style-type: none;
     overflow: hidden;
     background-color: #38444d;
