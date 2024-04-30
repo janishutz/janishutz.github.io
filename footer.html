@@ -100,7 +100,7 @@
     </div>
     <!-- Detection to open pop-up to tell users to head to new website after certain amount of interactions -->
     <script>
-        let pageViewCount = parseInt( localStorage.getItem( 'pageViewCount' ) ) ?? 0;
+        let pageViewCount = parseInt( localStorage.getItem( 'pageViewCount' ) ?? '0' );
         if ( pageViewCount > 4 ) {
             document.getElementById( 'go-to-new-page-popup' ).classList.add( 'popup-show' );
         } else {
